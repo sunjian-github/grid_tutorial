@@ -75,7 +75,7 @@ grid = Grid(
     orderby=db.district.name,
     show_id=True,
     rows_per_page=5,
-    heaings=['District ID', 'Name'],
+    headings=['District ID', 'Name'],
     **GRID_DEFAULTS,
 )
 ```
