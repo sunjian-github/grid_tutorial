@@ -134,7 +134,7 @@ grid = Grid(
     orderby=db.district.name,
     show_id=True,
     rows_per_page=5,
-    validation=no_more_that_8_districts,    
+    validation=no_more_than_8_districts,    
     **GRID_DEFAULTS,
 )
 ```
